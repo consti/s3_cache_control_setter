@@ -3,6 +3,8 @@ s3_cache_control_setter
 
 Utility that helps you set the CacheControl / Expires headers for files on S3.
 
+Especially useful for Paperclip/Carrierwave uploads where you forgot to set the CacheControl!
+
 ### Requirements ###
 
 ```aws-sdk``` gem;
